@@ -23,7 +23,7 @@ def predict():
     prediction = model.predict([[exp]])
     
         
-    return render_template('index1.html', prediction_text='Regression Model  has predicted price for given SqurFeet is : {}'.format(prediction))
+    return render_template('index2.html', prediction_text='Regression Model  has predicted price for given SqurFeet is : {}'.format(prediction))
 
 
 if __name__ == "__main__":
